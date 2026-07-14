@@ -173,7 +173,7 @@ Downloads should use trusted HTTPS sources and should be pinned or verified when
 
 ## Licensing
 
-No open-source license is included by default. Feedline Labs should choose and add the appropriate license before accepting broad third-party contributions. Until a license is added, contributors should not assume that repository content may be redistributed outside the terms stated by Feedline Labs.
+MIT License
 
 ## Repository ownership
 
