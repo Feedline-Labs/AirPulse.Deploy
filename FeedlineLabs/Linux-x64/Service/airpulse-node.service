@@ -1,0 +1,15 @@
+﻿[Unit]
+Description=AirPulse Node
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=airpulse-user
+WorkingDirectory=/home/airpulse-user/airpulse/AirPulse.Node
+ExecStart=/home/airpulse-user/airpulse/AirPulse.Node/AirPulse.Node --urls http://0.0.0.0:5050
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
